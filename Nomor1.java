@@ -5,8 +5,7 @@ public class Nomor1{
 
         Scanner input = new Scanner(System.in);
         int honorLembur = 0;
-        int jamLembur = 0;
-        jamLembur = input.nextInt();
+        int jamLembur = input.nextInt();
 
         if(jamLembur <= 16 ){
             honorLembur = 10000 * jamLembur;
@@ -14,9 +13,6 @@ public class Nomor1{
         else if (jamLembur > 16) {
             honorLembur = (160000) + (15000 * (jamLembur - 16));
         } 
-        else {
-            System.out.println("input tidak valid");
-        }
         System.out.println("Total jam lembur: " + jamLembur);
         System.out.println("Honor lembur: " + honorLembur);
 
