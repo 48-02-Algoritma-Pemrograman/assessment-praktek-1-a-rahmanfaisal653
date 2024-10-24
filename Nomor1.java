@@ -4,7 +4,7 @@ public class Nomor1{
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
-        double honorLembur = 0;
+        int honorLembur = 0;
         int jamLembur = 0;
         jamLembur = input.nextInt();
 
