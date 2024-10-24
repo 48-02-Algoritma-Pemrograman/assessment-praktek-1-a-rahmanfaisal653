@@ -15,7 +15,7 @@ public class Nomor1{
             honorLembur = (160000) + (15000 * (jamLembur - 16));
         } 
         else {
-            
+            System.out.println("input tidak valid");
         }
         System.out.println("Total jam lembur : " + jamLembur);
         System.out.println("Honor Lembur : " + honorLembur);
