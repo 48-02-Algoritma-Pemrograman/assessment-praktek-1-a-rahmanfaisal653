@@ -4,7 +4,7 @@ public class Nomor1{
     public static void main(String[] args){
 
         Scanner input = new Scanner(System.in);
-        int honorLembur = 0;
+        int honorLembur;
         int jamLembur = input.nextInt();
 
         if(jamLembur <= 16 ){
