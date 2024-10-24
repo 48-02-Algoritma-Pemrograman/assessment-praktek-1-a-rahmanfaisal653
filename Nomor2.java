@@ -13,7 +13,7 @@ public class Nomor2 {
         System.out.println("Masukan Input lagi? : ");
         String inputLagi = input.next();
 
-        for (int i = 0; i <= 1; i++) {
+        for (int i = 0; i <= 3; i++) {
             switch (inputLagi) {
                 case "y":
 
