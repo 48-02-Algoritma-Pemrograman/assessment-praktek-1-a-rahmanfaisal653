@@ -17,11 +17,8 @@ public class Nomor1{
         else {
             System.out.println("input tidak valid");
         }
-        System.out.println("Total jam lembur : " + jamLembur);
-        System.out.println("Honor Lembur : " + honorLembur);
+        System.out.println("Total jam lembur: " + jamLembur);
+        System.out.println("Honor lembur: " + honorLembur);
 
-        
-
-        input.close();
     }
 }
